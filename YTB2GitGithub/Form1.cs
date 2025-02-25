@@ -11,5 +11,15 @@ namespace YTB2GitGithub
         {
             MessageBox.Show("Test")
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = "Ahmet Aksakal";
+
+            if (string.IsNullOrEmpty(username))
+            {
+                MessageBox.Show("Hata");
+            }
+        }
     }
 }
